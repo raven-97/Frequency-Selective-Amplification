@@ -1,4 +1,4 @@
-[y1,Fs] = audioread('Melody.mp3');
+[y1,Fs] = audioread('replaceME.mp3');       % replace replaceME.mp3 with the name of your audio file
 y1 = y1(:, 1);
 % Breaking points for frequencies
 o1 = 2 * 2000 / Fs;
